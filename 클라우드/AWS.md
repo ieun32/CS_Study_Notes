@@ -8,8 +8,6 @@ AWS에서는 190개 이상의 서비스를 제공하고 있는데, 컴퓨팅, �
 
 # 클라우드 컴퓨팅이란?
 
----
-
 **클라우드 컴퓨팅**은 간단히 말해 컴퓨터를 빌려주는, 컴퓨터 임대 사업을 말한다. 오래된 표현으로는 호스팅 비즈니스라고 하는데, 호스트는 컴퓨터 한 개를 뜻한다.
 
 자세히는, 서로 다른 물리적 위치에 존재하는 컴퓨터들의 자원(서버, 플랫폼, 소프트웨어 등)을 가상화 기술로 통합해 제공하는 기술을 말한다.
@@ -20,9 +18,7 @@ AWS에서는 190개 이상의 서비스를 제공하고 있는데, 컴퓨팅, �
 
 # IaaS, PaaS, SaaS란?
 
----
-
-클라우드 컴퓨팅 서비스가 등장하기 전에는 어떤 서비스를 만들기 위해서 서비스 개발에 필요한 모든 IT 인프라 자원을 직접 구축하는 것이 일반적이었다. 예를 들어 물리적 장비, 구축, OS 및 기타 구동 프로그램 구입 및 설치, Data 보안 관리, 애플리케이션 프로그램 구입 및 설치까지 모든 과정을 직접 진행해야했다. 이러한 운영 방식을 `On-Premise`(온프레미스) 방식이라고 한다.
+클라우드 컴퓨팅 서비스가 등장하기 전에는 어떤 서비스를 만들기 위해서 서비스 개발에 필요한 모든 IT 인프라 자원을 직접 구축하는 것이 일반적이었다. 예를 들어 물리적 장비, 구축, OS 및 기타 구동 프로그램 구입 및 설치, Data 보안 관리, 애플리케이션 프로그램 구입 및 설치까지 모든 과정을 직접 진행해야했다. 이러한 운영 방식을 `*On-Premise*`(온프레미스) 방식이라고 한다.
 
 그러나 온프레미스 방식은 다음과 같은 단점이 있었다. ([출처](https://www.google.com/search?q=%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4+%ED%95%9C%EA%B3%84&sca_esv=ee9179209f9cefc8&ei=CqVNZu-HEsmKvr0P2I-MgAI&udm=&ved=0ahUKEwjvtMGc5KCGAxVJha8BHdgHAyAQ4dUDCBA&uact=5&oq=%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4+%ED%95%9C%EA%B3%84&gs_lp=Egxnd3Mtd2l6LXNlcnAiFuyYqO2UhOugiOuvuOyKpCDtlZzqs4QyBRAhGKABMgUQIRigAUiuCFCCA1iXB3ABeAGQAQCYAZEBoAHkBqoBAzAuN7gBA8gBAPgBAZgCBqACgAXCAgoQABiwAxjWBBhHwgILEAAYgAQYsQMYgwHCAgUQABiABJgDAIgGAZAGCpIHAzEuNaAHkh0&sclient=gws-wiz-serp))
 
@@ -36,19 +32,17 @@ AWS에서는 190개 이상의 서비스를 제공하고 있는데, 컴퓨팅, �
 
 한편 이러한 클라우드 컴퓨팅 서비스는 크게 `IaaS`, `PaaS`, `SaaS`의 3가지로 구분할 수 있다.
 
-![https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/f6090b68-e8a8-43d8-a8b1-153d7697df99/Untitled.png)
+![[https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://www.dknyou.com/blog/?idx=14931168&bmode=view)](./assets/images_aws/Untitled.png)
 
-https://www.dknyou.com/blog/?idx=14931168&bmode=view
+[https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://www.dknyou.com/blog/?idx=14931168&bmode=view)
 
 서비스의 종류에 따라 서비스의 영역이 달라지는데, 하나씩 살펴보도록 하자.
 
 ## IaaS (Infrastructure as a service)
 
----
+![[https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://www.dknyou.com/blog/?idx=14931168&bmode=view)](./assets/images_aws/Untitled%201.png)
 
-![https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/3cb97e93-32df-461b-a30f-7e03ec8774b9/Untitled.png)
-
-https://www.dknyou.com/blog/?idx=14931168&bmode=view
+[https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://www.dknyou.com/blog/?idx=14931168&bmode=view)
 
 `IaaS`는 **인프라를 구독형 서비스로 제공하는 클라우드 컴퓨팅 서비스**를 말한다.
 
@@ -64,11 +58,11 @@ https://www.dknyou.com/blog/?idx=14931168&bmode=view
 
 ## PaaS (platform as a service)
 
----
 
-![https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/168d6f3c-be67-43a8-b942-09d1ffdf92a6/Untitled.png)
 
-https://www.dknyou.com/blog/?idx=14931168&bmode=view
+![[https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://www.dknyou.com/blog/?idx=14931168&bmode=view)](./assets/images_aws/Untitled%202.png)
+
+[https://www.dknyou.com/blog/?idx=14931168&bmode=view](https://www.dknyou.com/blog/?idx=14931168&bmode=view)
 
 `PaaS`는 **플랫폼을 구독형 서비스로 제공하는 클라우드 컴퓨팅 서비스**를 말한다.
 
@@ -88,9 +82,9 @@ PaaS에서는 소프트웨어 업데이트 또는 하드웨어 유지 관리는 
 
 ## SaaS (software as a service)
 
----
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/9ab4a3e5-5ef3-4dbe-8f8c-4b8753d6ae55/Untitled.png)
+
+![Untitled](./assets/images_aws/Untitled%203.png)
 
 `SaaS`는 **소프트웨어를 구독형 서비스로 제공하는 클라우드 컴퓨팅 서비스**를 말한다.
 
@@ -109,7 +103,7 @@ PaaS에서는 소프트웨어 업데이트 또는 하드웨어 유지 관리는 
 
 # AWS EC2란?
 
----
+
 
 - `EC2`는 *Elastic Compute Cloud* (탄력적 컴퓨팅 클라우드)의 약자로, 안전하고 크기 조정이 가능한 컴퓨팅 파워를 클라우드에서 제공하는 웹 서비스이다.
 - `EC2`에서 컴퓨터 단위는 인스턴스이다.
@@ -122,28 +116,28 @@ PaaS에서는 소프트웨어 업데이트 또는 하드웨어 유지 관리는 
 - 콘솔 로그인 하기 > 서비스 > EC2 > 인스턴스 만들기
 - 프리티어 사용 가능한 윈도우 서버 선택
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/c382b9db-381e-4c3d-8094-7879336bd2ce/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%204.png)
     
 - 인스턴스 중에 프리티어 사용 가능한 t2.micro 버전 선택
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/e5ecaecd-aa77-4d5e-a1c9-51723c85e42b/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%205.png)
     
 - 우하단 인스턴스 생성 버튼 클릭
 - 새 키 페어 생성하기 (비밀번호)
     - 그리고 인스턴스 생성 버튼을 누르면 자동으로 키가 다운되고 (잃어버림 안된다)
     - 인스턴스가 생성된다
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/43a8b985-88c1-4c5b-b2fb-d6f593c8cf89/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%206.png)
     
 - 인스턴스에 연결 버튼 클릭
 - RDP 클라이언트 > 원격 데스크톱 파일 다운로드
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/09c00850-1e58-4e4d-b548-5907ed836db3/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%207.png)
     
 - 암호 가져오기 > 아까 다운받은 암호 파일 업로드 > 암호 해독 > 해독된 암호 복사
 - 맥에서는 별도의 프로그램 사용해서 접속해야 하고, 윈도우에서는 원격 데스크톱 다운로드 받은 파일 실행 > 해독 비밀번호 입력 > 예  눌러주면 바로 접속 가능하다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/0eac66fd-4361-46cf-b38d-593eb48118b8/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%208.png)
     
 
 - 요금 관리하기 > 필요 없으면 중지 or 종료
@@ -159,7 +153,7 @@ PaaS에서는 소프트웨어 업데이트 또는 하드웨어 유지 관리는 
 
 - 사용자 권한 관리 > IAM > 대시보드
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/77b7a86f-586f-4e5b-b07a-35dcd1d69552/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%209.png)
 
 - 주황색은 권장하는 조치, 다 초록색으로 만드는 것이 좋다
 - MFA 설정하기
@@ -167,20 +161,20 @@ PaaS에서는 소프트웨어 업데이트 또는 하드웨어 유지 관리는 
     - Multi Factor = Login+ OTP
     - 모바일 디바이스에 google authenticator 설치하고 IAM에 가상 MFA 디바이스 추가 단계를 따르면 설정이 완료된다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/19d59899-c03d-4814-956f-dc20be1e68d5/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2010.png)
     
     - 그러면 아래처럼 멀티 팩터 인증에 내 디바이스가 추가된다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/c3a9c2ef-58da-4edc-820e-d7793b37bf42/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2011.png)
     
 - 이제 로그인 할 때 OTP인증을 추가로 해야 로그인 가능하다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/c3c39582-0582-48ef-8b87-28b19abe87b1/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2012.png)
     
 
 # AWS S3란?
 
----
+
 
 *`AWS S3`는 Simple Storage Service*의 약어로, 간단한 저장 서비스로 번역할 수 있겠다.
 
@@ -232,7 +226,7 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
 
 1. [**Amazon S3](https://ap-northeast-2.console.aws.amazon.com/s3/get-started?region=ap-northeast-2) > [버킷](https://ap-northeast-2.console.aws.amazon.com/s3/buckets?region=ap-northeast-2) > 버킷 만들기 조회**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/8f198637-f6e6-4892-ac93-a2f4802f1055/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2013.png)
 
 - 버킷 이름은 전세계에서 유일한 버킷 이름을 생성해야 한다.
 
@@ -245,13 +239,13 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
 
 1. 버킷 만들기 버튼을 클릭해 버킷을 생성한다.
     
-    ![생성 완료된 버킷](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/53c1a4aa-92d5-4e40-9e28-7dc22ae20ca8/Untitled.png)
+    ![생성 완료된 버킷](./assets/images_aws/Untitled%2014.png)
     
     생성 완료된 버킷
     
 2. 생성된 버킷을 조회한다. 버킷 이름을 클릭해 조회할 수 있고, 최초 설정은 버킷의 설정 탭에서 얼마든지 변경할 수 있다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/5d941226-1df3-41d9-846b-a39221fa1e1c/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2015.png)
     
 
 ### 2. 폴더 생성
@@ -259,7 +253,7 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
 1. 버킷 조회 > 폴더 만들기 버튼 클릭
 2. 폴더 이름 지정 > 폴더 만들기 버튼 클릭
     
-    ![생성된 폴더](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/896e6171-6000-42aa-8da2-a0add5f23282/Untitled.png)
+    ![생성된 폴더](./assets/images_aws/Untitled%2016.png)
     
     생성된 폴더
     
@@ -269,7 +263,7 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
 1. 해당 폴더 > 파일 업로드 버튼 클릭
 2. 업로드 파일 선택 > 파일 업로드 버튼 클릭
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/742485c6-61a0-4242-91f8-713fd9daffef/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2017.png)
     
 
 ### 4. 공유와 권한
@@ -277,28 +271,28 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
 1. 기본적으로 S3에 업로드 한 파일의 URL로 접속을 하면 AccessDenied 에러가 뜬다.
 - S3 업로드 파일의 URL 정보 확인
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/16360ea4-ced1-479c-9c69-5e50804f0460/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2018.png)
     
 - URL로 접속 후 뜨는 AccessDenied Error
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/afc2cf65-9f0d-460f-9723-2f4d0c3c1672/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2019.png)
     
 
 1. 누구나 해당 파일에 접근할 수 있게 하기 위해서는 파일 > 권한 탭에서 설정을 변경해줘야 한다.
 - 먼저 버킷의 ACL 설정과, 퍼블릭 액세스 차단 설정을 변경해주어야 한다.
     
-    ![버킷 > 권한 > 객체 소유권 편집 > ACL 활성화 > 변경 사항 저장](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/94c78730-f1a3-49c6-ab84-d0f8040e5172/Untitled.png)
+    ![버킷 > 권한 > 객체 소유권 편집 > ACL 활성화 > 변경 사항 저장](./assets/images_aws/Untitled%2020.png)
     
     버킷 > 권한 > 객체 소유권 편집 > ACL 활성화 > 변경 사항 저장
     
-    ![버킷 > 권한 > 퍼블릭 액세스 차단 설정 변경 (체크 해제 참고) > 변경 사항 저장](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/6fe9ebdb-25e7-45a7-a33e-5a38a8b64b41/Untitled.png)
+    ![버킷 > 권한 > 퍼블릭 액세스 차단 설정 변경 (체크 해제 참고) > 변경 사항 저장](./assets/images_aws/Untitled%2021.png)
     
     버킷 > 권한 > 퍼블릭 액세스 차단 설정 변경 (체크 해제 참고) > 변경 사항 저장
     
 
 1. 설정을 마친 뒤 파일 > 권한 탭에서 전체 공개 설정을 할 수 있다.
     
-    ![파일 > 권한 탭](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/eab39eba-7500-4a84-a803-c8dbdad361f4/Untitled.png)
+    ![파일 > 권한 탭](./assets/images_aws/Untitled%2022.png)
     
     파일 > 권한 탭
     
@@ -308,13 +302,13 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
         - 인증된 사용자 그룹: 말 그대로 인증된 사용자 그룹을 의미
     - 권한 > 편집 버튼 클릭 > 전체 공개 체크 > 변경 사항 저장
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/6cb9e6af-ede8-44ca-8427-c29e45a1ef31/Untitled.png)
+        ![Untitled](./assets/images_aws/Untitled%2023.png)
         
 
 1. 다시 주소로 접근해보기
 - 이제는 전체 공개가 되어 주소로 접근하면 해당 텍스트 파일을 조회할 수 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/46e24851-936a-4f0f-a4f4-d7a97ffdebb3/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2024.png)
 
 ### 5. 스토리지 클래스
 
@@ -322,7 +316,7 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
 
 파일마다 스토리지 클래스를 설정할 수 있다. 파일의 수준을 설정할 수 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/1ae96f35-5806-43a5-953b-30bf7e08bf05/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2025.png)
 
 - 가용 영역은 이 파일이 최소 몇 개의 컴퓨터에 저장될 것인지 여부
 
@@ -332,7 +326,7 @@ S3에서는 이러한 오브젝트, 폴더, 버킷을 생성, 조회, 수정, �
 
 요금 체계는 [여기서](https://aws.amazon.com/ko/s3/pricing/?nc=sn&loc=4) 확인할 수 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/0e09043d-9e22-4df5-9f29-9b26121c1a17/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2026.png)
 
 ## S3 파일 보관 이외 기능
 
@@ -353,7 +347,7 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 
 # AWS CloudFront란?
 
----
+
 
 클라우드 프론트 서비스에서는 대표적으로 아래 두 가지 서비스를 제공한다.
 
@@ -389,7 +383,7 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 
 - 여기 다음과 같이 문자열과 현재 날짜를 출력하는 PHP 어플리케이션을 만들고, CDN 성능을 확인해보기 위해 PHP 문법을 사용해서 로딩 시간을 1초 늦춰보자. 그리고 웹 서버를 사용해서 웹 어플리케이션을 서빙해보자.
 
-![로딩에 1.4초가 걸리는 웹 애플리케이션](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/1930654c-71ff-491a-b7d6-01418a219320/Untitled.png)
+![로딩에 1.4초가 걸리는 웹 애플리케이션](./assets/images_aws/Untitled%2027.png)
 
 로딩에 1.4초가 걸리는 웹 애플리케이션
 
@@ -397,23 +391,23 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 
 - 네트워크 & 콘텐츠 딜리버리 > CloudFront 서비스 > Create Distribution 버튼 클릭
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/67fc5d2b-ddb8-461a-ba37-7e8710898822/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2028.png)
     
 - 클라우드 프론트를 사용하게 되면 사용자는 더 이상 웹 서버로 직접 접속하지 않는다. 최초 요청 시 클라우드 프론트가 웹 서버에게 웹페이지를 요청하면, 웹 서버가 전달해주고, 이후 요청 부터는 클라우드 프론트가 그 결과를 저장하고 있다가 사용자에게 전달한다. 즉 최초 요청 이후부터는 웹서버가 노는 상태가 된다.
 - 이때 웹서버를 클라우드 프론트에게 정보를 제공하는 원천이라는 뜻에서 “Origin”
 - 이 Origin의 데이터가 전세계에 있는 클라우드 프론트의 캐시 서버로 분배된다는 뜻에서 클라우드 프론트를 “Distribution” 이라고 부른다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/90acc180-d743-4904-8eb6-056aa34162a5/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2029.png)
 
 - Web > Create Distribution 설정 입력
     - 웹서버 도메인 등을 입력한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/16873e59-2479-4b61-bfc3-1ce1fae4cbf1/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2030.png)
 
 - 생성된 클라우드 프론트의 도메인 네임으로 이동해보자.
 - 클라우드 프론트를 앞 단으로 위치 시켰더니 1초가 걸렸던 로딩 시간이 → **14ms 로 단축**되었다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/bd379146-9932-40e7-a922-aaa0fd85afe7/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2031.png)
 
 - 이 때 문제는 웹사이트의 실시간 변경 사항을 반영해주지 못하고 있다는 점이다. 현재 날짜를 가져오는 웹페이지인데 클라우드 프론트로 접속하니 계속 같은 날짜만을 반환해준다. 이는 오리진의 변경 사항을 디스트리뷰션은 모르고 있기 때문에 생기는 문제이다.
 - 캐시 설정을 통해 변경해보자.
@@ -422,16 +416,16 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 
 - 클라우드 프론트의 Behavior 설정 >  Edit 클릭
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/0f5f9b04-4d24-4460-8a89-e8e1e5756e9e/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2032.png)
 
 - Object Caching 속성 > Use Origin Cache Headers 체크
 - 이 속성을 사용해서 `Cache-Control: max-age=60` 이라는 값을 헤더에 포함시키면, 60초 동안 정보가 유효하니 60초 동안에는 다시 요청하지 말라는 의미가 전달되고, 클라우드 프론트는 웹서버에게 데이터를 전달 받고 60초 동안 웹 서버에게 다시 요청하지 않는다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/189fd18b-847d-4562-8eed-0443980cec2e/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2033.png)
     
 - 웹 브라우저도 마찬가지로 클라우드 프론트로부터 `Cache-Control: max-age=60` 헤더를 가진 웹페이지를 전달 받으므로 웹브라우저는 웹브라우저 대로 클라우드 프론트에 60초 동안 웹페이지를 요청하지 않는다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/d8b039eb-c904-4d8d-a2d4-0d8975ea7e95/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2034.png)
 
 - 따라서 60초 동안에는 웹서버에게 더 이상 정보를 요청하지 않고 자기 레벨에서 응답을 해주기 때문에 60초 동안 웹서버가 놀 수 있는 상태가 되는 것이다.
 
@@ -440,40 +434,40 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 - 10초에 한번 변경사항을 반영하는 웹사이트를 만들어보자.
 - php를 활용해서 `Cache-Control: max-age=10` 속성을 설정한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/d5134050-4805-42f8-a16f-691a3f506a90/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2035.png)
 
 - 이제 웹서버 자체로 접속해보자.
 - 속성을 적용했지만 `Cache-Control: max-age=0` 으로 헤더가 설정되어있고 아직 접속할 때마다 1초 로딩이 걸린다.
 - 이는 새로고침 할 때는 캐시가 적용되지 않기 때문이므로 링크를 클릭해서 이 페이지에 접속하면 캐시가 적용되니, 이 페이지로 이동되는 <a> 태그를 하나 만들고 이 링크를 통해 페이지에 접속하면
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/fe5bcc97-b93d-4652-b903-524993e5cf99/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2036.png)
 
 - 로딩 속도가 6ms로 개선되고 `Cache-Control: max-age=10` 헤더가 적용된 것을 확인할 수 있다.
 
 - 이제 클라우드 프론트로 접속해보자. 우리가 <a> 태그를 만들었는데 변경사항을 반영하지 못하고 있다. 이는 클라우트 프론트의 캐시가 기본적으로 24시간 살아있기 때문이다.
 - 24시간을 기다릴 순 없으므로 캐시를 강제로 지우는 방법을 알아보자.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/8ccdf0fa-55d1-4493-b698-f71f50a0a491/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2037.png)
 
 ### 5. 캐시 설정 3, 캐시 무효화
 
 - 캐시를 강제로 삭제하는 옵션은 CloudFront Distributions > 생성한 클라우드 선택 > Invalidations 탭에서 설정할 수 있다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/edfc188d-c2e6-4300-9cd2-e68c9650c788/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2038.png)
     
 - Create Invalidation 버튼을 클릭하고, 캐시 무효화를 지정할 경로를 작성한다. (유료 서비스)
     - 우리의 경우 /index.php 를 작성한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/636080a8-3b9b-407f-ab68-5df6caf9d8e9/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2039.png)
 
 - Invalidation이 모두 적용되고나서 클라우드 프론트로 접속하면 변경 사항이 반영된 모습을 볼 수 있다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/1c7038d0-43ed-446e-a930-5429a8d0f5b8/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2040.png)
     
 
 # AWS RDS란?
 
----
+
 
 `AWS RDS`는 *Amazon Relational Database Service*의 약자로, 컴퓨터에 데이터 베이스를 설치해주고 대신 운영해주는 서비스이다. RDS 서비스는 비교적 비싸다. 그럼에도 많은 개발자들이 선택하는 데는 이점이 있기 때문이다.
 
@@ -487,16 +481,16 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 
 - AWS > RDS 서비스 검색 > 왼쪽 탭 ‘데이터베이스’ 선택
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/852dfb1f-d38e-4f9b-9219-7c29a061427e/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2041.png)
     
 - 데이터베이스 생성 버튼 클릭
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/635e081a-c838-4e00-9a23-f4906390256c/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2042.png)
     
     - 위 사진과 같이 RDS는 다양한 관계형 데이터베이스들을 제공하고 있다.
 - MySQL 선택 > 무료로 진행하기 위해서는 프리티어로 진행 체크
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/1e5c5c33-fa02-424f-95de-3dc8e45b01b9/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2043.png)
     
 - 선택할 수 있는 속성 종류
     - 원하는 DB 버전
@@ -510,7 +504,7 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
     - 마스터 사용자 이름
     - 마스터 암호
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/4ee34755-ef61-4f3f-9309-de59ba1d81e9/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2044.png)
 
 - 연결 속성에서 네트워크 및 보안 설정 (VPC)
     - VPC : 기본으로 설정
@@ -529,7 +523,7 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 
 ### VPC란?
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/0b45bc37-4c60-4733-80a0-de0bd7f25182/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2045.png)
 
 - AWS 안에서 외부로부터 독립된 안전한 네트워크를 구성해주는 서비스
 - VPC를 생성하고 DB 인스턴스를 만들게 되면 외부에서 직접적으로 DB에 접근하는 것을 막을 수 있음
@@ -542,35 +536,35 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 - 데이터베이스 > 우상단 ‘수정’ 버튼 클릭 > 퍼블릭 액세스 접속 설정 “예”로 변경
 - 그리고 수정 예약을 즉시 적용으로 체크
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/69a14ddd-ffc5-4f80-a5e5-e42214dea618/Untitled.png)
+![Untitled](./assets/images_aws/Untitled%2046.png)
 
 - 엔트 포인트 복사
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/fcd7d40a-8f73-49cc-8133-143f355f1418/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2047.png)
     
 - mysql monitor를 사용할 것, cmd에서 복사한 엔드포인트와 함께 로그인 정보 넘기기
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/daea6c87-ec83-42ab-938e-9c9699c86643/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2048.png)
     
 - 그런데 접속이 안됨, 이유는 다음과 같음
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/712992d4-e93f-4e14-b6f1-5017f21df41c/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2049.png)
     
     - AWS에서 방화벽 기능으로 Security group을 제공함
     - MySQL client도 아무나 들어오지 못하게 특정한 IP에서만 접속 가능하도록 지정할 수 있음, 이때 Security group 안에 있는 다양한 서버 중에 RDS로 접속하게 하기 위해 포트 지정해줘야 함
 - 데이터 베이스 접속 > 속성 중에 보안 그룹 주소 클릭 > 보안 그룹 체크하면 아래와 같은 속성 보임
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/02680fb0-240c-45cb-9671-38f39a48c52e/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2050.png)
     
     - 인바운드: 밖에서 접속
     - 아웃바운드: 응답해주는 것
 - 즉 인바운드 설정해주면 됨
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/593a7b8c-6236-4bce-bac2-08d1602576e7/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2051.png)
     
 - 설정 이후 다시 cmd 접속해보면 접속에 성공
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/97b66d16-f8a8-4be1-abba-a44b5078c7ac/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2052.png)
     
 
 ### 3. 비공개 상태로 접속
@@ -581,36 +575,36 @@ S3에는 파일 보관 기능 말고도 다양한 기능을 제공한다.
 - EC2 인스턴스 생성하기
     - 우분투, t2.micro, vpc를 기본값, 퍼블릭 IP 자동 할당 활성화, 보안 그룹 구성 22번 포트는 SSH라고 해서 CMD에서 접속하려면 22번 포트 열려 있어야 함
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/e5587258-632f-4978-ab69-a40761e1965d/Untitled.png)
+        ![Untitled](./assets/images_aws/Untitled%2053.png)
         
 - SSH로 접속하기
     - CMD에서 다음 명령어 입력하면 ubuntu 서버로 접속 가능
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/2f447f91-2aee-47b4-966f-5057ebd90512/Untitled.png)
+        ![Untitled](./assets/images_aws/Untitled%2054.png)
         
     - mysql 입력해보면 설치해야한다고 함
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/e1f433c7-9ca9-4a79-aeb6-ce1a975e80b0/Untitled.png)
+        ![Untitled](./assets/images_aws/Untitled%2055.png)
         
     - sudo apt update;
     - sudo apt install mysql-client
     - 데이터베이스 엔드포인트 복사해서 다시 아래 명령어 입력
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/ccdec9d9-6336-4c57-b987-dfb3d0265de8/Untitled.png)
+        ![Untitled](./assets/images_aws/Untitled%2056.png)
         
     - 이때 접속이 안되는데 RDS에서 보안 그룹, 인바운드 등록해야함
     - EC2 인스턴스의 IP 주소를 RDS의 Security group에 등록하면됨 혹은 더 좋은 방법으로 EC2의 security group에 등록해도 됨
     - EC2 보안 그룹 ID 카피해오기
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/749339bc-90d2-4ca0-9b24-6dad8597f191/Untitled.png)
+        ![Untitled](./assets/images_aws/Untitled%2057.png)
         
     - RDS 보안 그룹 > 인바운드  > 편집 > EC2 보안 그룹 ID 복사한 것 붙여넣고 저장
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/e3c09f40-18d3-4d9e-ad0c-9475c0228e97/Untitled.png)
+        ![Untitled](./assets/images_aws/Untitled%2058.png)
         
 - 이제 다시 SSH로 RDS에 접속하려고 하면 접속에 성공하는 것을 확인할 수 있음
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2b6748e-ba74-4d54-a235-94c36f9d61cb/8f067532-cb2a-426d-a5b5-827fd8a2056f/Untitled.png)
+    ![Untitled](./assets/images_aws/Untitled%2059.png)
     
 
 # Reference
